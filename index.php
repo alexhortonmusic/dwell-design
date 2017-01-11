@@ -77,9 +77,28 @@
 			<div class='nashInfo'>
 				<p>
 				The Nashville Metropolitan area encompasses 13 counties and nearly 2 million people. Located on the Cumberland River, Nashville is an up and coming city with a small town feel. This area is filled with cafes, restaurants, boutiques, and antique shops. Many of the restaurants feature live music, drawing in crowds that come for the food and stay for the music. Whether you are looking for a quiet gallery visit or a night out on the town, there is always something to see and do in Nashville.
-
+				</p>
+				<p>
 				Musician’s flock to the area - it isn’t called the Music City for nothing - and the arts community is thriving. All of the Big Four record labels have a presence in Nashville. The music industry employs nearly 20,000 people each year in Nashville, making it the second largest music-producing center in the United States. (Second only to New York City.) In addition to the arts, Nashville is a center for healthcare, banking, and the transportation industry. In fact, the largest employment sector in Nashville is the healthcare industry, employing approximately 200,000 residents. Nashville is also the home of several colleges and universities, including Belmont University and Vanderbilt.
 				</p>
+			</div>
+			<div class='communities'>
+				<h2>Get to know the neighborhood</h2>
+				<div class='commSearch'>
+					<select name="community" id="communitySelect">
+						<option disabled selected>Choose a community</option>
+						<option value="Nashville">Nashville</option>
+						<option value="12 South">12 South</option>
+						<option value="Belle Meade">Belle Meade</option>
+						<option value="Downtown Nashville">Downtown Nashville</option>
+						<option value="East Nashville">East Nashville</option>
+						<option value="Wedgewood Houston">Wedgewood Houston</option>
+						<option value="Woodbine">Woodbine</option>
+					</select>
+					<div class='learnBtn'>
+						<p>Learn More</p>
+					</div>
+				</div>
 			</div>
 		</section>
 
