@@ -1,8 +1,9 @@
 <?php get_header()?>
+	<div class='content'>
 	<section class='landing'>
 		<p>Want to find your dream home?</p>
 		<div class='btn'>
-			<p>Start the process now!</p>
+			<div>Start the process now!</div>
 		</div>
 	</section>
 
@@ -97,4 +98,5 @@
 
 	<section class='blog'></section>
 
+	</div>
 <?php get_footer()?>

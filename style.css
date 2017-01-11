@@ -7,7 +7,85 @@ Author: Alex Horton
 Author URL: alexhorton.co
 Tags: alexhorton
 */
-
 body {
-	font-family: Arial, sans-serif;
-}
+  margin: 0; }
+
+.wrapper {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.content {
+  max-width: 1440px;
+  margin: 0 auto; }
+
+nav {
+  height: 110px;
+  background-color: #444545;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  nav .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px; }
+  nav .rightNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 60px; }
+    nav .rightNav .rightNavWrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 80%; }
+      nav .rightNav .rightNavWrap .navContact {
+        align-self: flex-end;
+        margin-right: 20px; }
+        nav .rightNav .rightNavWrap .navContact i {
+          color: #ddd;
+          margin-left: 4px; }
+      nav .rightNav .rightNavWrap .navLinks {
+        display: flex;
+        flex-direction: row; }
+        nav .rightNav .rightNavWrap .navLinks p {
+          color: #ddd;
+          margin: 0 30px;
+          font-size: 1.1rem; }
+
+.landing {
+  background: linear-gradient(rgba(74, 74, 74, 0.5), rgba(74, 74, 74, 0.5)), url("http://localhost/dwell/wp-content/uploads/2017/01/family-1.jpg");
+  background-size: cover;
+  background-position: 50% 15%;
+  height: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .landing p {
+    color: #eeeeee;
+    font-size: 4.5rem;
+    width: 40%;
+    font-weight: 400;
+    margin: 90px 0 0 100px; }
+  .landing .btn {
+    width: 30%;
+    height: 90px;
+    min-width: 300px;
+    background-color: #579bb2;
+    border: 3px solid #ddd;
+    border-radius: 15px;
+    margin: 0 auto 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .landing .btn div {
+      font-size: 2rem;
+      text-align: center;
+      color: #ddd; }
+
+/*# sourceMappingURL=style.css.map */

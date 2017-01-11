@@ -1,0 +1,39 @@
+/*
+Theme Name: dwell
+Theme URL: alexhorton.co
+Description: Redesign of the Dwell Music City team's Real Estate site
+Version: 1.0
+Author: Alex Horton
+Author URL: alexhorton.co
+Tags: alexhorton
+*/
+
+body {
+	margin: 0;
+}
+
+.wrapper {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.content {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+
+$orange: #f98948;
+$cadetblue: #579bb2;
+$black: #444545;
+$greygreen: #aac0af;
+$greyblue: #c5e0d8;
+$aeroblue: #b5ffe9;
+$smoke: #ddd;
+
+
+@import 'nav';
+@import 'landing';
