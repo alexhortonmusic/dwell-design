@@ -8,7 +8,8 @@ Author URL: alexhorton.co
 Tags: alexhorton
 */
 body {
-  margin: 0; }
+  margin: 0;
+  background: #eee; }
 
 .wrapper {
   font-family: 'Roboto', sans-serif;
@@ -19,14 +20,17 @@ body {
 
 .content {
   max-width: 1440px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 110px; }
 
 nav {
   height: 110px;
   background-color: #444545;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  position: fixed;
+  width: 100%; }
   nav .logo {
     display: flex;
     flex-direction: column;
@@ -87,5 +91,70 @@ nav {
       font-size: 2rem;
       text-align: center;
       color: #ddd; }
+
+.searchForm {
+  background-color: #579bb2;
+  height: 275px;
+  border-top: 3px solid #eee;
+  display: flex;
+  flex-direction: column; }
+  .searchForm .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .searchForm .form .inputs {
+      margin: 35px auto 0;
+      width: 70%;
+      display: flex;
+      flex-direction: column; }
+      .searchForm .form .inputs .cityProp {
+        align-self: center;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; }
+        .searchForm .form .inputs .cityProp input, .searchForm .form .inputs .cityProp select {
+          width: 40%;
+          height: 50px;
+          font-size: 1.5rem;
+          font-weight: 300; }
+        .searchForm .form .inputs .cityProp input {
+          text-align: center;
+          border: 1px solid #eee;
+          border-radius: 5px; }
+        .searchForm .form .inputs .cityProp select {
+          color: #bfb0a9; }
+      .searchForm .form .inputs .brba {
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+        .searchForm .form .inputs .brba input, .searchForm .form .inputs .brba select {
+          width: 20%;
+          height: 35px;
+          font-size: 1rem;
+          font-weight: 300; }
+        .searchForm .form .inputs .brba input {
+          text-align: center;
+          border: 1px solid #eee;
+          border-radius: 5px; }
+        .searchForm .form .inputs .brba select {
+          color: #bfb0a9; }
+    .searchForm .form .btn {
+      width: 20%;
+      height: 60px;
+      background-color: #f98948;
+      border: 3px solid white;
+      border-radius: 15px;
+      margin: 30px auto 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .searchForm .form .btn p {
+        text-align: center;
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 300; }
 
 /*# sourceMappingURL=style.css.map */

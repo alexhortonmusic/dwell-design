@@ -8,8 +8,17 @@ Author URL: alexhorton.co
 Tags: alexhorton
 */
 
+$orange: #f98948;
+$cadetblue: #579bb2;
+$black: #444545;
+$greygreen: #aac0af;
+$greyblue: #c5e0d8;
+$aeroblue: #b5ffe9;
+$smoke: #ddd;
+
 body {
 	margin: 0;
+	background: #eee;
 }
 
 .wrapper {
@@ -23,17 +32,12 @@ body {
 .content {
 	max-width: 1440px;
 	margin: 0 auto;
+	padding-top: 110px;
 }
 
 
-$orange: #f98948;
-$cadetblue: #579bb2;
-$black: #444545;
-$greygreen: #aac0af;
-$greyblue: #c5e0d8;
-$aeroblue: #b5ffe9;
-$smoke: #ddd;
 
 
 @import 'nav';
 @import 'landing';
+@import 'searchForm';
