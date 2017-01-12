@@ -29,17 +29,20 @@ $smoke: #ddd;
 
 		.worth {
 			background: linear-gradient(rgba(74, 74, 74, 0.65), rgba(74, 74, 74, 0.65)), url('http://localhost/dwell/wp-content/uploads/2017/01/pig.jpg');
+			transition: 0.3s;
 
 		}
 
 		.move {
 			background: linear-gradient(rgba(74, 74, 74, 0.65), rgba(74, 74, 74, 0.65)), url('http://localhost/dwell/wp-content/uploads/2017/01/van.jpg');
 			position: center bottom;
+			transition: 0.3s;
 		}
 
 
 		.dream {
 			background: linear-gradient(rgba(74, 74, 74, 0.65), rgba(74, 74, 74, 0.65)), url('http://localhost/dwell/wp-content/uploads/2017/01/dream-house.jpg');
+			transition: 0.3s;
 		}
 
 		.callToAction {
@@ -51,6 +54,7 @@ $smoke: #ddd;
 			flex-direction: column;
 			flex-wrap: wrap;
 			justify-content: center;
+			transition: 0.3s;
 
 			p {
 				text-align: center;
@@ -59,6 +63,18 @@ $smoke: #ddd;
 				font-size: 3rem;
 				font-weight: 400;
 				color: $smoke;
+				transition: 0.3s;
+			}
+		}
+
+		.callToAction:hover, .callToAction:active {
+			background: white;
+			transition: 0.3s;
+
+			p:hover {
+				color: $cadetblue;
+				line-height: 80px;
+				transition: 0.3s;
 			}
 		}
 	}

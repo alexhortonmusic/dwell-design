@@ -1,0 +1,56 @@
+$orange: #f98948;
+$cadetblue: #579bb2;
+$black: #444545;
+$greygreen: #aac0af;
+$greyblue: #c5e0d8;
+$aeroblue: #b5ffe9;
+$smoke: #ddd;
+
+.testimonies {
+	background: $greyblue;
+
+	p {
+		font-size: 2.5rem;
+		text-align: center;
+		font-weight: 100;
+		padding-top: 30px;
+		margin: 0;
+	}
+
+	.testimonyWrap {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+
+		.testimony {
+			width: 38%;
+			margin-bottom: 30px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+
+			img {
+				height: 200px;
+				border-radius: 50%;
+				margin: 20px auto;
+			}
+
+			i {
+				font-size: 1.7rem;
+				width: 90%;
+			}
+
+			p {
+				width: 70%;
+				text-align: justify;
+				font-weight: 100;
+				font-size: 1.3rem;
+				margin: 0 auto;
+				span {
+					font-weight: 300;
+					font-size: 1.5rem;
+				}
+			}
+		}
+	}
+}
