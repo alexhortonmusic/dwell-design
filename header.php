@@ -5,11 +5,12 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<script src="https://use.fontawesome.com/022879ddbb.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
 	<!-- [if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif] -->
 	<?php wp_head(); ?>
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
 </head>
 <body>
@@ -19,21 +20,22 @@
     		<img alt="Dwell Music City Logo and Village Real Estate Logo" src="<?php echo get_template_directory_uri(); ?>/assets/logo-broker-1.png" />
     	</div>
     	<div class='rightNav'>
-    		<div class='navContact'>
-    			<div>T</div>
-    			<div>T</div>
-    			<div>T</div>
-    		</div>
-    		<div class='navLinks'>
-    			<ul>
-    				<li>About</li>
-    				<li>Search Homes</li>
-    				<li>Communities</li>
-    				<li>Buyers and Sellers</li>
-    				<li>New Homes</li>
-    				<li>Blog</li>
-    				<li>Contact</li>
-    			</ul>
+    		<div class='rightNavWrap'>
+	    		<div class='navContact'>
+	    			<i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+	    			<i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+	    			<i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i>
+	    			<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+	    		</div>
+	    		<div class='navLinks'>
+	  				<p>About</p>
+	  				<p>Search Homes</p>
+	  				<p>Communities</p>
+	  				<p>Buyers and Sellers</p>
+	  				<p>New Homes</p>
+	  				<p>Blog</p>
+	  				<p>Contact</p>
+	    		</div>
     		</div>
     	</div>
     </nav>

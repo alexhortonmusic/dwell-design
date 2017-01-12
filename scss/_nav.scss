@@ -1,0 +1,68 @@
+$orange: #f98948;
+$cadetblue: #579bb2;
+$black: #444545;
+$greygreen: #aac0af;
+$greyblue: #c5e0d8;
+$aeroblue: #b5ffe9;
+$smoke: #ddd;
+
+nav {
+	height: 110px;
+	background-color: $black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: fixed;
+	width: 100%;
+
+	.logo {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 60px;
+
+		img {
+
+		}
+
+	}
+
+	.rightNav {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-right: 60px;
+
+		.rightNavWrap {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 80%;
+
+			.navContact {
+				align-self: flex-end;
+				margin-right: 20px;
+
+				i {
+					color: $smoke;
+					margin-left: 4px;
+				}
+
+			}
+
+			.navLinks {
+				display: flex;
+				flex-direction: row;
+
+				p {
+					color: $smoke;
+					margin: 0 20px;
+					font-size: 1.1rem;
+				}
+			}
+		}
+
+
+
+	}
+}

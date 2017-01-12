@@ -1,0 +1,65 @@
+/* video and calls to action */
+
+$orange: #f98948;
+$cadetblue: #579bb2;
+$black: #444545;
+$greygreen: #aac0af;
+$greyblue: #c5e0d8;
+$aeroblue: #b5ffe9;
+$smoke: #ddd;
+
+.videoPlusCallsToAction {
+
+	.howToVid {
+		width: 646px;
+		margin: 50px auto;
+
+		iframe {
+			text-align: center;
+			border: 3px solid $smoke;
+		}
+	}
+
+	.cTA {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin: 90px 0;
+
+
+		.worth {
+			background: linear-gradient(rgba(74, 74, 74, 0.65), rgba(74, 74, 74, 0.65)), url('http://localhost/dwell/wp-content/uploads/2017/01/pig.jpg');
+
+		}
+
+		.move {
+			background: linear-gradient(rgba(74, 74, 74, 0.65), rgba(74, 74, 74, 0.65)), url('http://localhost/dwell/wp-content/uploads/2017/01/van.jpg');
+			position: center bottom;
+		}
+
+
+		.dream {
+			background: linear-gradient(rgba(74, 74, 74, 0.65), rgba(74, 74, 74, 0.65)), url('http://localhost/dwell/wp-content/uploads/2017/01/dream-house.jpg');
+		}
+
+		.callToAction {
+			height: 375px;
+			width: 375px;
+			background-size: cover;
+			border-radius: 50%;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			p {
+				text-align: center;
+				width: 60%;
+				margin: 0 auto;
+				font-size: 3rem;
+				font-weight: 400;
+				color: $smoke;
+			}
+		}
+	}
+}

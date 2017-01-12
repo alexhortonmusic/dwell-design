@@ -1,0 +1,48 @@
+$orange: #f98948;
+$cadetblue: #579bb2;
+$black: #444545;
+$greygreen: #aac0af;
+$greyblue: #c5e0d8;
+$aeroblue: #b5ffe9;
+$smoke: #ddd;
+
+.landing {
+	background: linear-gradient(rgba(74, 74, 74, 0.5), rgba(74, 74, 74, 0.5)), url('http://localhost/dwell/wp-content/uploads/2017/01/family-1.jpg');
+	background-size: cover;
+	background-position: 50% 15%;
+	height: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	p {
+		color: #eeeeee;
+		font-size: 4.5rem;
+		width: 40%;
+		font-weight: 400;
+		margin: 90px 0 0 100px;
+	}
+
+	.btn {
+		width: 30%;
+		height: 90px;
+		min-width: 300px;
+		background-color: $cadetblue;
+		border: 3px solid $smoke;
+		border-radius: 15px;
+		margin: 0 auto 100px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		div {
+
+			font-size: 2rem;
+			text-align: center;
+			color: $smoke;
+		}
+	}
+}
