@@ -51,14 +51,25 @@ nav {
         margin-right: 20px; }
         nav .rightNav .rightNavWrap .navContact i {
           color: #ddd;
-          margin-left: 4px; }
+          margin-left: 4px;
+          cursor: pointer;
+          transition: 0.3s; }
+        nav .rightNav .rightNavWrap .navContact i:hover, nav .rightNav .rightNavWrap .navContact i:active {
+          color: #579bb2;
+          transition: 0.3s; }
       nav .rightNav .rightNavWrap .navLinks {
         display: flex;
         flex-direction: row; }
         nav .rightNav .rightNavWrap .navLinks p {
           color: #ddd;
           margin: 0 20px;
-          font-size: 1.1rem; }
+          font-size: 1.1rem;
+          pointer: cursor;
+          transition: 0.3s; }
+        nav .rightNav .rightNavWrap .navLinks p:hover, nav .rightNav .rightNavWrap .navLinks p:active {
+          color: #579bb2;
+          pointer: cursor;
+          transition: 0.3s; }
 
 .landing {
   background: linear-gradient(rgba(74, 74, 74, 0.5), rgba(74, 74, 74, 0.5)), url("http://localhost/dwell/wp-content/uploads/2017/01/family-1.jpg");
@@ -86,11 +97,20 @@ nav {
     margin: 0 auto 100px;
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s; }
     .landing .btn div {
       font-size: 2rem;
       text-align: center;
-      color: #ddd; }
+      color: #ddd;
+      transition: 0.3s; }
+  .landing .btn:hover, .landing .btn:active {
+    background-color: #f98948;
+    transition: 0.3s; }
+    .landing .btn:hover div:hover, .landing .btn:active div:hover {
+      letter-spacing: 2px;
+      transition: 0.3s; }
 
 .searchForm {
   background-color: #579bb2;
@@ -148,6 +168,8 @@ nav {
       border: 3px solid white;
       border-radius: 15px;
       margin: 30px auto 0;
+      cursor: pointer;
+      transition: 0.3s;
       display: flex;
       flex-direction: column;
       justify-content: center; }
@@ -156,6 +178,11 @@ nav {
         color: white;
         font-size: 1.4rem;
         font-weight: 300; }
+    .searchForm .form .btn:hover, .searchForm .form .btn:active {
+      background-color: white;
+      transition: 0.3s; }
+      .searchForm .form .btn:hover p:hover, .searchForm .form .btn:active p:hover {
+        color: #f98948; }
 
 /* video and calls to action */
 .videoPlusCallsToAction .howToVid {
@@ -170,12 +197,15 @@ nav {
   justify-content: space-around;
   margin: 90px 0; }
   .videoPlusCallsToAction .cTA .worth {
-    background: linear-gradient(rgba(74, 74, 74, 0.65), rgba(74, 74, 74, 0.65)), url("http://localhost/dwell/wp-content/uploads/2017/01/pig.jpg"); }
+    background: linear-gradient(rgba(74, 74, 74, 0.65), rgba(74, 74, 74, 0.65)), url("http://localhost/dwell/wp-content/uploads/2017/01/pig.jpg");
+    transition: 0.3s; }
   .videoPlusCallsToAction .cTA .move {
     background: linear-gradient(rgba(74, 74, 74, 0.65), rgba(74, 74, 74, 0.65)), url("http://localhost/dwell/wp-content/uploads/2017/01/van.jpg");
-    position: center bottom; }
+    position: center bottom;
+    transition: 0.3s; }
   .videoPlusCallsToAction .cTA .dream {
-    background: linear-gradient(rgba(74, 74, 74, 0.65), rgba(74, 74, 74, 0.65)), url("http://localhost/dwell/wp-content/uploads/2017/01/dream-house.jpg"); }
+    background: linear-gradient(rgba(74, 74, 74, 0.65), rgba(74, 74, 74, 0.65)), url("http://localhost/dwell/wp-content/uploads/2017/01/dream-house.jpg");
+    transition: 0.3s; }
   .videoPlusCallsToAction .cTA .callToAction {
     height: 375px;
     width: 375px;
@@ -184,14 +214,23 @@ nav {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center; }
+    justify-content: center;
+    transition: 0.3s; }
     .videoPlusCallsToAction .cTA .callToAction p {
       text-align: center;
       width: 60%;
       margin: 0 auto;
       font-size: 3rem;
       font-weight: 400;
-      color: #ddd; }
+      color: #ddd;
+      transition: 0.3s; }
+  .videoPlusCallsToAction .cTA .callToAction:hover, .videoPlusCallsToAction .cTA .callToAction:active {
+    background: white;
+    transition: 0.3s; }
+    .videoPlusCallsToAction .cTA .callToAction:hover p:hover, .videoPlusCallsToAction .cTA .callToAction:active p:hover {
+      color: #579bb2;
+      line-height: 80px;
+      transition: 0.3s; }
 
 .nashville .nashHeader {
   background: linear-gradient(rgba(74, 74, 74, 0.85), rgba(74, 74, 74, 0.85)), url("http://localhost/dwell/wp-content/uploads/2017/01/piano.jpg");
@@ -248,17 +287,25 @@ nav {
       color: #bfb0a9; }
     .nashville .communities .commSearch .learnBtn {
       background-color: #f98948;
-      border: 2px solid #eee;
+      border: 2px solid white;
       border-radius: 5px;
       height: 36px;
       width: 200px;
+      transition: 0.3s;
       display: flex;
       flex-direction: column;
       justify-content: center; }
       .nashville .communities .commSearch .learnBtn p {
         margin: 0;
         text-align: center;
-        color: #eee; }
+        color: #eee;
+        transition: 0.3s; }
+    .nashville .communities .commSearch .learnBtn:hover, .nashville .communities .commSearch .learnBtn:active {
+      background: white;
+      transition: 0.3s; }
+      .nashville .communities .commSearch .learnBtn:hover p:hover, .nashville .communities .commSearch .learnBtn:active p:hover {
+        color: #f98948;
+        transition: 0.3s; }
 
 .featuredListings {
   margin-bottom: 30px; }

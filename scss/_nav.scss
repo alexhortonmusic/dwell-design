@@ -24,7 +24,6 @@ nav {
 		img {
 
 		}
-
 	}
 
 	.rightNav {
@@ -46,6 +45,13 @@ nav {
 				i {
 					color: $smoke;
 					margin-left: 4px;
+					cursor: pointer;
+					transition: 0.3s;
+				}
+
+				i:hover, i:active {
+					color: $cadetblue;
+					transition: 0.3s;
 				}
 
 			}
@@ -58,6 +64,14 @@ nav {
 					color: $smoke;
 					margin: 0 20px;
 					font-size: 1.1rem;
+					pointer: cursor;
+					transition: 0.3s;
+				}
+
+				p:hover, p:active {
+					color: $cadetblue;
+					pointer: cursor;
+					transition: 0.3s;
 				}
 			}
 		}

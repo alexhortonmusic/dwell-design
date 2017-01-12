@@ -79,10 +79,11 @@ $smoke: #eee;
 
 			.learnBtn {
 				background-color: $orange;
-				border: 2px solid $smoke;
+				border: 2px solid white;
 				border-radius: 5px;
 				height: 36px;
 				width: 200px;
+				transition: 0.3s;
 
 				display: flex;
 				flex-direction: column;
@@ -92,6 +93,17 @@ $smoke: #eee;
 					margin: 0;
 					text-align: center;
 					color: $smoke;
+					transition: 0.3s;
+				}
+			}
+
+			.learnBtn:hover, .learnBtn:active {
+				background: white;
+				transition: 0.3s;
+
+				p:hover {
+					color: $orange;
+					transition: 0.3s;
 				}
 			}
 		}

@@ -37,12 +37,24 @@ $smoke: #ddd;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		cursor: pointer;
+		transition: 0.3s;
 
 		div {
-
 			font-size: 2rem;
 			text-align: center;
 			color: $smoke;
+			transition: 0.3s;
+		}
+	}
+
+	.btn:hover, .btn:active {
+		background-color: $orange;
+		transition: 0.3s;
+
+		div:hover {
+			letter-spacing: 2px;
+			transition: 0.3s;
 		}
 	}
 }
