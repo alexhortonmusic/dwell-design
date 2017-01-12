@@ -1,0 +1,61 @@
+$orange: #f98948;
+$cadetblue: #579bb2;
+$black: #444545;
+$greygreen: #aac0af;
+$greyblue: #c5e0d8;
+$aeroblue: #b5ffe9;
+$smoke: #ddd;
+
+.featuredListings {
+	margin-bottom: 30px;
+
+	p {
+		font-size: 2.5rem;
+		text-align: center;
+		font-weight: 100;
+	}
+
+	.listGrid {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		width:90%;
+		margin: 0 auto;
+
+		.listing {
+			height: 300px;
+			width: 30%;
+			margin-bottom: 20px;
+			background: linear-gradient(rgba(74, 74, 74, 0.6), rgba(74, 74, 74, 0.6)), url('http://localhost/dwell/wp-content/uploads/2017/01/Screen-Shot-2017-01-09-at-9.34.35-PM.png');
+			background-size: cover;
+
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+
+			.listingInfo {
+				height: 60%;
+				width: 100%;
+
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+
+				p {
+					font-size: 1.4rem;
+					font-weight: 400;
+					align-self: center;
+					color: $smoke;
+				}
+
+				h3 {
+					align-self: center;
+					color: $greygreen;
+					font-size: 2rem;
+				}
+			}
+		}
+	}
+}

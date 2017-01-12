@@ -260,4 +260,123 @@ nav {
         text-align: center;
         color: #eee; }
 
+.featuredListings {
+  margin-bottom: 30px; }
+  .featuredListings p {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 100; }
+  .featuredListings .listGrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto; }
+    .featuredListings .listGrid .listing {
+      height: 300px;
+      width: 30%;
+      margin-bottom: 20px;
+      background: linear-gradient(rgba(74, 74, 74, 0.6), rgba(74, 74, 74, 0.6)), url("http://localhost/dwell/wp-content/uploads/2017/01/Screen-Shot-2017-01-09-at-9.34.35-PM.png");
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .featuredListings .listGrid .listing .listingInfo {
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; }
+        .featuredListings .listGrid .listing .listingInfo p {
+          font-size: 1.4rem;
+          font-weight: 400;
+          align-self: center;
+          color: #ddd; }
+        .featuredListings .listGrid .listing .listingInfo h3 {
+          align-self: center;
+          color: #aac0af;
+          font-size: 2rem; }
+
+.testimonies {
+  background: #c5e0d8; }
+  .testimonies p {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 30px;
+    margin: 0; }
+  .testimonies .testimonyWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .testimonies .testimonyWrap .testimony {
+      width: 38%;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      .testimonies .testimonyWrap .testimony img {
+        height: 200px;
+        border-radius: 50%;
+        margin: 20px auto; }
+      .testimonies .testimonyWrap .testimony i {
+        font-size: 1.7rem;
+        width: 90%; }
+      .testimonies .testimonyWrap .testimony p {
+        width: 70%;
+        text-align: justify;
+        font-weight: 100;
+        font-size: 1.3rem;
+        margin: 0 auto; }
+        .testimonies .testimonyWrap .testimony p span {
+          font-weight: 300;
+          font-size: 1.5rem; }
+
+footer {
+  background: #444545;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #ddd; }
+  footer p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 100; }
+  footer .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px; }
+    footer .contact .phone {
+      width: 40%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      footer .contact .phone i {
+        margin-right: 20px; }
+      footer .contact .phone p {
+        text-align: left;
+        margin: 0;
+        font-size: 1.5rem;
+        color: #579bb2; }
+    footer .contact .email {
+      width: 25%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      footer .contact .email i {
+        margin-right: 20px; }
+      footer .contact .email a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: #579bb2;
+        transition: 0.3s; }
+      footer .contact .email a:hover, footer .contact .email a:active {
+        color: #f98948;
+        transition: 0.3s; }
+  footer .credit {
+    font-size: .8rem; }
+
 /*# sourceMappingURL=style.css.map */
