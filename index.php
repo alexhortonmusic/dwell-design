@@ -129,13 +129,13 @@
 			<div class='testimonyWrap'>
 				<div class='testimony'>
 					<!-- img -->
-					<img src="http://localhost/dwell/wp-content/uploads/2017/01/girl-1.png" alt="girl face">
+					<img src="http://alexhortondev.x10host.com/dwellmusiccity/wp-content/uploads/2017/01/girl-1.png" alt="girl face">
 					<i class="fa fa-quote-left" aria-hidden="true"></i>
 					<p>Crucifix trust fund 8-bit, twee lomo kale chips portland organic photo booth leggings meditation pork belly small batch. Squid tattooed gochujang, venmo heirloom man braid pabst tilde marfa mustache waistcoat poke taxidermy. Kogi portland umami 8-bit, slow-carb banjo aesthetic small batch. Gochujang typewriter taxidermy, direct trade post-ironic butcher irony enamel pin coloring book iPhone art party listicle. - <span>Woman</span></p>
 				</div>
 				<div class='testimony'>
 					<!-- img -->
-					<img src="http://localhost/dwell/wp-content/uploads/2017/01/man.png" alt="man face">
+					<img src="http://alexhortondev.x10host.com/dwellmusiccity/wp-content/uploads/2017/01/man.png" alt="man face">
 					<i class="fa fa-quote-left" aria-hidden="true"></i>
 					<p>Crucifix trust fund 8-bit, twee lomo kale chips portland organic photo booth leggings meditation pork belly small batch. Squid tattooed gochujang, venmo heirloom man braid pabst tilde marfa mustache waistcoat poke taxidermy. Kogi portland umami 8-bit, slow-carb banjo aesthetic small batch. Gochujang typewriter taxidermy, direct trade post-ironic butcher irony enamel pin coloring book iPhone art party listicle. - <span>Man</span></p>
 				</div>
